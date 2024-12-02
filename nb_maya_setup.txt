@@ -1,0 +1,8 @@
+from nb_rigging_toolkit import nb_rgtk_main as nb_main
+
+try :
+    x.show()
+        
+except :
+    x = nb_main.ToolkitWindow()
+    x.show()
